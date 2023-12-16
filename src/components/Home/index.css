@@ -1,0 +1,47 @@
+.page-main-container {
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.bottom-container {
+  padding: 15px 7.5%;
+}
+
+.courses-heading {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.all-technologies-container {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 350px;
+  align-content: space-between;
+  list-style: none;
+  padding-left: 0;
+}
+
+/*  */
+
+.failure-view-image {
+  width: 250px;
+}
+
+.something-went-wrong {
+  font-family: Roboto;
+}
+
+.something-went-wrong-description {
+  font-family: Roboto;
+}
+
+.try-again-button {
+  background-color: #4656a1;
+  color: #ffffff;
+  font-family: Roboto;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  padding: 8px 15px;
+}

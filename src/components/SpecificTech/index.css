@@ -1,0 +1,67 @@
+.specific-course-main-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.specific-details-bottom-container {
+  margin: 15px 7.5%;
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.specific-details-course-container {
+  height: 350px;
+  display: flex;
+
+  box-shadow: 5px 5px 4px 4px #cecbcb;
+  border-radius: 12px;
+}
+
+.specific-details-image {
+  height: 100%;
+  width: 35%;
+}
+
+.text-container {
+  width: 65%;
+  padding: 30px;
+}
+
+.specific-tech-name {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.tech-description {
+  font-family: Roboto;
+  line-height: 1.5;
+}
+
+.failure-view-image {
+  width: 250px;
+}
+
+.something-went-wrong {
+  font-family: Roboto;
+}
+
+.something-went-wrong-description {
+  font-family: Roboto;
+}
+
+.try-again-button {
+  background-color: #4656a1;
+  color: #ffffff;
+  font-family: Roboto;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  padding: 8px 15px;
+}
